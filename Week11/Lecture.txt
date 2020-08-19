@@ -1,0 +1,10 @@
+<Firebase Realtime Database>
+
+What is the difference between Firebase Realtime Database and firestore database
+https://firebase.google.com/docs/firestore/rtdb-vs-firestore
+
+Realtime Database stores data as one large JSON tree which makes it easier to store simple data but harder to organize complex, hierarchical data at scale.
+flatten data structure allows you to prevent from you to have a nested level and much easier to get data from JSON tree
+
+
+Cloud Firestore stores data in documents arranged in collections. Simple data is stored in documents, which is easy and similar to the way data is stored in JSON.
