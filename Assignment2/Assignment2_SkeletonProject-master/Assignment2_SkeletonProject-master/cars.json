@@ -1,0 +1,12 @@
+[
+{"id" : 1, "CarModel1": "Nissan","CarModel2" : "Altima" , "Year":2015},
+{"id" : 2, "CarModel1": "Mazda", "CarModel2" : "Mazda6" ,"Year":2019},
+{"id" : 3, "CarModel1": "Ford","CarModel2" : "Focus" , "Year":2020},
+{"id" : 4, "CarModel1": "Honda", "CarModel2" : "Civic" ,"Year":2014},
+{"id" : 5, "CarModel1": "Kia","CarModel2" : "Foret" , "Year":2015},
+{"id" : 6, "CarModel1": "Toyota","CarModel2" : "Camry" , "Year":2017},
+{"id" : 7, "CarModel1": "Mitsubishi", "CarModel2" : "Lancer" ,"Year":2018},
+{"id" : 8, "CarModel1": "Subaru", "CarModel2" : "Impreza" ,"Year":2014},
+{"id" : 9, "CarModel1": "Volkswagen","CarModel2" : "Golf" , "Year":2018},
+{"id" : 10, "CarModel1": "Chevy","CarModel2" : "Sonic" , "Year":2016}
+]

@@ -1,0 +1,5 @@
+1. Implement Room DB functionalities - Dao(Interface), Database(java class), 
+2. Implement Json parser - Week7
+3. Implement Call back interface - Week6 - ToDo App Version2
+4. Implement Networking(?) and multi-threading(public static final ExecutorService databaseWriteExecutor=Executors.newFixedThreadPool();)
+5. Recycler View and Adapter - Week7
