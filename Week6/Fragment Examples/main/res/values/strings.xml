@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FragmentsExampleOct29</string>
+
+    <string name="help_text2">THis is diffrent text </string>
+    <string name="help_text">If you need any help with fragment visit this site </string>
+</resources>

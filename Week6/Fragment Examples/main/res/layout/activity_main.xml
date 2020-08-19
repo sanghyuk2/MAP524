@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="4"
+        android:orientation="vertical"
+
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+           android:layout_weight="1"
+            android:weightSum="4"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/swichFragment"
+                android:onClick="swich_clicked"
+                android:text="First -> Second"
+                android:layout_weight="1"
+                />
+            <Button
+                android:id="@+id/swichFragment2"
+                android:onClick="second_swich_clicked"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Second -> First"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/addremoveFragment"
+                android:layout_weight="1"
+                android:text="add or remove fragment"
+                android:onClick="add_remove_fragment"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/openDialogFragment"
+                android:text="Alert Dialog"
+                android:layout_weight="1"
+                android:onClick="open_dialgo_fragment"
+                />
+
+        </LinearLayout>
+<FrameLayout
+    android:id="@+id/list_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    >
+
+</FrameLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark">
+
+            <fragment
+                android:id="@+id/swich_area_for_fragments"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:name="com.example.dev.fragmentsexampleoct29.FirstFragment"
+                >
+
+            </fragment>
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/add_remove_area"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           android:layout_weight="1"
+            android:background="@color/white"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Here inside frame layout"
+                android:layout_gravity="center_horizontal|center_vertical"
+                />
+        </FrameLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
