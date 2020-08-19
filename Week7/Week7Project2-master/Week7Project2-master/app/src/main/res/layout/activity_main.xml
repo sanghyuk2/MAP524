@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="401dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp" />
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="319dp"
+        android:layout_below="@+id/recyclerView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:orientation="vertical"
+       >
+
+        <EditText
+            android:id="@+id/newJson"
+            android:layout_width="match_parent"
+            android:layout_height="162dp"
+            android:layout_above="@+id/newJsonbut"
+            android:layout_toStartOf="@id/newJsonbut"
+
+            android:singleLine="false">
+
+        </EditText>
+
+        <Button
+            android:id="@+id/newJsonbut"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_above="@+id/recyclerView"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="117dp"
+            android:gravity="center"
+            android:onClick="SaveNewJson"
+            android:text="add New Json"></Button>
+    </LinearLayout>
+
+
+</RelativeLayout>

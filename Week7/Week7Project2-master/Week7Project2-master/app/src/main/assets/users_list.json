@@ -1,0 +1,59 @@
+{
+  "users": [
+    {
+      "id": "1087",
+      "name": "Jamson Travas",
+      "email": "jamson.travas@gmail.com",
+      "gender": "male",
+      "contact": {
+        "mobile": "+91 0000000000",
+        "home": "00 000000",
+        "office": "00 000000"
+      }
+    },
+    {
+      "id": "1088",
+      "name": "Ronaldo",
+      "email": "ronaldo9188@gmail.com",
+      "gender": "male",
+      "contact": {
+        "mobile": "+91 0000000000",
+        "home": "00 000000",
+        "office": "00 000000"
+      }
+    },
+    {
+      "id": "1089",
+      "name": "Ayla",
+      "email": "ayla@gmail.com",
+      "gender": "female",
+      "contact": {
+        "mobile": "+91 0000000000",
+        "home": "00 000000",
+        "office": "00 000000"
+      }
+    },
+    {
+      "id": "1389",
+      "name": "Daved",
+      "email": "daved1980@gmail.com",
+      "gender": "male",
+      "contact": {
+        "mobile": "+91 0000000000",
+        "home": "00 000000",
+        "office": "00 000000"
+      }
+    },
+    {
+      "id": "1420",
+      "name": "Robin Staw",
+      "email": "robin.staw@gmail.com",
+      "gender": "male",
+      "contact": {
+        "mobile": "+91 0000000000",
+        "home": "00 000000",
+        "office": "00 000000"
+      }
+    }
+  ]
+}
