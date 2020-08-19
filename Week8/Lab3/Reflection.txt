@@ -1,0 +1,12 @@
+Lab3 Reflection - Sanghyuk Lee(129405171)
+
+To explain briefly, Lab3 is not a temporary storage but an application that contains the stored information even if you turn the app off and on.
+I updated the Bundle.gradle to use Room db and then sync.
+After making the entire Donation object @entity and specifying the @primary key and set the field sharingApps @Ignore not to use in my database.
+I created a database class and used Dao to specify functions to be used in the database.
+After checking if the database is empty or not through DatabaseClient, decide which database to use. After that, add the value to Dao using the function I specified through the executor.
+MainActivity uses DatabaseClient's insertToDB function to forward objects to the database.
+To get a data what I wanted in detail, I used the specific function of Dao class in 'AllDonation' java class which is used to display all the donations records and 'AllDonationsWithAmountBiggerThan' java class which displays the records having the amount more than 1000, which I set and send it to parameter.
+I've used activity_all_donations for 'AllDonation' and 'AllDonationsWithAmountBiggerThan' because both of the form displaying are the same.
+And changed the ArrayList to Array in Adapter as I am not going to use ArrayList anymore in Lab3.
+
