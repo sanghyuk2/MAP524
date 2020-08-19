@@ -1,0 +1,7 @@
+Question ) Choose one version of Andriod versions and explain two of its important or new features.
+
+I have chosen the Andriod versions 2.0 to 2.1:Eclair. 
+It brings up lots of elements including following: turn-by-turn navigation, real-time traffic info, live wall paper.
+The version Eclair releases the voice-guided turn-by-turn navigation, which provides voice-guided driving directions to you in your vehicle over your speakers and uses Global Positioning System(GPS) technology to route you to your destination so that even blinds can find the directions.
+In addition it brought a real-time traffic info which is is a very important part of navigation, as it allows to improve the calculated route based on the current situation. The best and fastest route to your destination is optimized while you are driving, based on live traffic information. This means that when you're in a hurry, It will automatically come up with a fast path to help you shorten the time.
+Also it brought live wallpapers, which is basically the software that change the screen. However, it is not just a change, but from adding various effects to the image background to videos, web pages, and applications can be designated as the desktop.

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/holo_blue_light"
+    >
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/simple_calculator"
+                android:layout_gravity="center"
+                android:textSize="30sp">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/firstNum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:inputType="number"
+                android:hint="@string/first_number"
+                android:autofillHints=""></EditText>
+
+            <EditText
+                android:id="@+id/secondNum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:hint="@string/second_number"
+                android:autofillHints=""
+                android:inputType="number"></EditText>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginBottom="40dp"
+                android:orientation="horizontal">
+            <Button
+                android:id="@+id/add_butt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/add"
+                android:background="@color/Violet"
+                android:textSize="20sp"
+                style="?android:attr/borderlessButtonStyle"
+                >
+
+            </Button>
+
+            <Button
+                android:id="@+id/minus_butt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/minuse"
+                android:textSize="20sp"
+                android:background="@color/Violet"
+                style="?android:attr/borderlessButtonStyle"
+
+                ></Button>
+
+                <Button
+                    android:id="@+id/times_butt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/add_button"
+                    android:textSize="20sp"
+                    android:background="@color/Violet"
+                    style="?android:attr/borderlessButtonStyle"
+
+                    ></Button>
+                <Button
+                    android:id="@+id/divid_butt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/divide"
+                    android:textSize="20sp"
+                    android:background="@color/Violet"
+                    style="?android:attr/borderlessButtonStyle"
+
+                    ></Button>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/result_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/result"
+                android:textSize="40sp"
+                android:layout_gravity="center"
+                >
+
+            </TextView>
+        </LinearLayout>
+
+
+
+

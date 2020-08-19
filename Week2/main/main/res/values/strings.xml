@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Week2</string>
+    <string name="simple_calculator">Simple Calculator</string>
+    <string name="add">+</string>
+    <string name="result">Result</string>
+    <string name="second_number">second Number</string>
+    <string name="first_number">First Number</string>
+    <string name="minuse">-</string>
+    <string name="add_button">*</string>
+    <string name="divide">/</string>
+</resources>
