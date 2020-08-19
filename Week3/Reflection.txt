@@ -1,0 +1,7 @@
+Q1. Briefly explain your idea for Lab 2 and how you design UI
+A. Although I felt a little strange in that I used a total of four linear layouts (main, three parts) instead of Relative Layout for lab2, all pieces were placed in one column vertically, following the instruction. By using radio buttons, text edits, and buttons, this app gives users a choices. I created app to select the exercise area and time, and the switch button at the bottom allows the user whether excercising with trainer or not.
+
+Q2. What did you learn most from doing Lab 2
+A. I learned how to make radio buttons and check boxes freely, and how to handle the action function when the button is clicked.
+
+

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/AliceBlue">
+    <!-- tools:context=".MainActivity" stands for connecting MainActivity Java file-->
+
+    <TextView
+        android:id="@+id/titleID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/donation_app_title"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"/>
+
+    <TextView
+        android:id="@+id/paymentMethodID"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="@string/payment_method"
+        android:textSize="20sp"
+        android:layout_below="@id/titleID"
+        >
+
+
+    </TextView>
+    <!--RadioGroup is like a container having multiple radio buttons and allows user to select one by one not the whole at once -->
+    <RadioGroup
+        android:id="@+id/radioGroupID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleID"
+        android:layout_toEndOf="@id/paymentMethodID"
+        android:layout_marginStart="40dp">
+        <!--If you want to make radio buttons horizontally, then you could do it by assigning horizontal to orientation property -->
+
+        <RadioButton
+            android:id="@+id/paypal_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/paypal"
+            ></RadioButton>
+
+        <RadioButton
+            android:id="@+id/credit_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/credit_card"></RadioButton>
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/howToShareID"
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:text="@string/how_would_like_to_share_this"
+        android:textSize="20sp"
+        android:layout_below="@id/radioGroupID"
+        android:layout_marginTop="40dp"
+        >
+
+
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/checkBoxesLayoutID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/radioGroupID"
+        android:layout_toEndOf="@id/howToShareID">
+
+        <CheckBox
+            android:id="@+id/wup_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/WhatsUp">
+
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/messenger_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/messenger">
+
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/messages_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_message">
+
+
+        </CheckBox>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/donateTextID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/how_much_would_you_like_to_donate"
+        android:textSize="20sp"
+        android:layout_below="@id/checkBoxesLayoutID"
+        android:layout_marginTop="40dp">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/donateTextID"
+        android:layout_marginTop="20sp"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:inputType="number"
+        android:autofillHints=""
+        android:hint="@string/Donate_Amount"
+        >
+
+    </EditText>
+
+    <Button
+        android:id="@+id/donate_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/amount"
+        android:layout_marginTop="20sp"
+        android:text="@string/donate_now"
+        android:background="@color/IndianRed"
+        android:layout_centerHorizontal="true">
+
+    </Button>
+
+
+
+
+
+</RelativeLayout>
