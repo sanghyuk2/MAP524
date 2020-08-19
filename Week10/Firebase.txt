@@ -1,0 +1,23 @@
+Firebase
+If your app needs more data, firebase will provide 
+firebase database is document database
+
+build.gradle(app level)
+build.gradle(root/project level)
+
+https://firebase.google.com/docs/android/setup?authuser=0
+1. firebase 에 연동된 구글계정으로 프로젝트를 만든다
+2. package이름을 넣고 json 파일을 다운받아 src 파일에 넣는다.
+3. build.gradle(root/project level)에 페이지 지시에 따라 넣고
+4. build.gradle(app level)에도 지시에 따라 필요요소들을 넣는다.
+5. https://firebase.google.com/docs/firestore/quickstart?authuser=0 로 가서 개발환경설정을 해준다.
+
+6. 앱을 실행시키고 문제가 없음이 확인되면 firebase에서 Develop -> Database로 들어간다
+7. Start in test mode를 실행한다.
+8. 지역설정을 nam5(us-central) 한 후 done
+9. 데이터베이스가 완성되면, Cloud Firestore을 택한다.
+10. Start collection 선택 후 Collection ID 만든다.
+11. ID를 auto로 만든다. (vI1GQE8564oryIwLfmjH) -> Save
+12. Add field -> Field -> Value 입력
+13. 후에 여러개의 db를 다룰 때 property이름이 같도록 만들어준다.
+14. 생성된 documentation들을 안드로이드에서 읽을 것이다. 또한 새로운 데이터도 저장하게끔 할 것이다.

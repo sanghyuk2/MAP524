@@ -1,0 +1,4 @@
+Listener은 데이터를 얻은 후 Cloud Firesotre로 실시간 업데이트를 가능하게끔 한다.
+예를 들어 유저가 ToDo를 추가할 경우 listener을 통하여 가능하며, 삭제할 경우도 listener을 통하여 가능하다.
+
+앱을 실행시키기 전 week8에서 사용하였던 데이터베이스를 사용하지 않기 위해서 Emulator를 변경해주어야한다
