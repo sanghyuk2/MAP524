@@ -1,0 +1,30 @@
+15-20 questions 
+able to come back to previous questions
+
+10시가 되면 자동으로 저장되며 제출된다
+교수가 방에 있을것이다.
+
+roughly describe - need to describe specific concept ( all from topics)
+Describe needed steps to implement in android - Layout and Java, transferring data between components
+ex) This data move via function call via parameter,via callback interface,via ntent and extra
+Write a differences
+Explain the process
+Explain why working with A is better than B - list two advantages
+Conversion question
+
+codes will come from projects(professor implemented) we have learnt
+
+
+ex) Explain the process of recycler view with list of cars
+need to explain how to build xml file with card view
+adapter
+etc...
+
+for example, explaining the steps will require one sentence for each
+for the difference question, you are required two paragraph for describing each choice
+
+
+as we have done real-time database without code so we won't have code question but concept 
+topics covered in the last week will not have any code questions but concepts.
+for example, If roomDB support support reference object or not. A) It does not. 
+Expect difference and basic concepts
