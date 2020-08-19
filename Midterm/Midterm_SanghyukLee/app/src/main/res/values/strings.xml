@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Midterm_SanghyukLee</string>
+    <string name="car_image">Your Car Image</string>
+    <string name="car_info">Add model and year</string>
+    <string name="save">Save</string>
+    <string name="save_car_info">Save car</string>
+    <string name="carmodeltxt">Enter the car model </string>
+    <string name="caryeartxt">Enter the car year </string>
+
+
+
+    <string-array name="carlist">
+        <item>Hyundae</item>
+        <item>Samsung</item>
+        <item>Benz</item>
+    </string-array>
+
+
+</resources>
