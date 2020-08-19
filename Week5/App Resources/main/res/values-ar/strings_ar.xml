@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Canada">كندا</string>
+    <string name="argentina">الأرجنتين</string>
+    <string name="English">الإنجليزية</string>
+    <string name="Arabic">العربية</string>
+
+    <string name="app_name">الأسبوع 5</string>
+    <string name="alert_mes">اي لغة تفضل</string>
+
+    <string name="Germany">ألمانيا</string>
+    <string name="China">الصين</string>
+    <string name="Egyte">مصر</string>
+    <string name="Spain">إسبانيا</string>
+    <string name="EuropeanUnion">الإتحاد الأوربي</string>
+    <string name="France">فرنسا</string>
+    <string name="England">إنكلترا</string>
+    <string name="Italy">إيطاليا</string>
+    <string name="Brazil">البرازيل</string>
+
+</resources>

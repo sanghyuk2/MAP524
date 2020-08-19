@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">W5P2_GridView</string>
+    <string name="alert_mes">Which language do you prefar?</string>
+    <string name="English">English</string>
+    <string name="Arabic">Arabic</string>
+
+    <string name="Canada">Canada</string>
+    <string name="Germany">Germany</string>
+    <string name="China">China</string>
+    <string name="Egyte">Egyte</string>
+    <string name="Spain">Spain</string>
+    <string name="argentina">argentina</string>
+    <string name="EuropeanUnion">European Union</string>
+    <string name="France">France</string>
+    <string name="England">England</string>
+    <string name="Italy">Italy</string>
+    <string name="Brazil">Brazil</string>
+
+</resources>
