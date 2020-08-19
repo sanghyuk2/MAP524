@@ -1,0 +1,16 @@
+/*
+This application is a true or false quiz application that shows the results according to the user's choice.
+Since I was given about 7 minutes, I will focus on given requirements instead of explaining each one in detail.
+There are few requirements for this assignment
+
+1. The first requirement is using a constraints layout without any hard-coded values.
+1-a) as you can see, I set all the elements in the form of constraints layout and put their position by dragging
+2. The second requirement is using a landscape layout. So I made it and it works properly.
+3. The application shows a Toast that shows a whether it is correct or incorrect according to the user selection.
+3-a) Let's see what happen if I click the correct answer. The first question, I set true in the array and when I click it shows 'Your answer is correct'
+The second question, If I click the incorrect answer on purpose, it shows 'Your answer is incorrect'
+4. The fourth requirement is showing a progress bar under the question. As you can see, when I click any answer, the progress bar is increasing.
+5. And when the all the questions end, it pops up the user score.
+6. And when you click the repeat button, it mixes all the questions and randomly display and then when the user start to click, the score is reset and the progress bar as well.
+6-a) To shuffle the questions, I used the 'Java Collection function'
+*/
